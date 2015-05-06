@@ -59,3 +59,7 @@ A: Check your text file you're trying to load for format. It is
 Q: How do I change the forcing number?
 A: After you have loaded or built a graph, type forcingnumber to 
 	change the forcing number.
+
+
+Future Implementation:<br>
+<a href='https://github.com/tomansill/BlueForce'>Blue Force</a> - Work-In-Progress superset of RedForce program that is able to solve graphs with vertex state higher than 2. 
