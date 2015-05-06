@@ -1,5 +1,7 @@
 Solver Program - April 8, 2014
+
 Author: Thomas B. Ansill
+
 Email: tba6700@rit.edu
 
 1. Run the Driver class using whatever you usually 
@@ -11,10 +13,10 @@ The program uses adjacency list to display graphs. If you do not
 understand adjacency list, please find the GraphToAdjacencyList.png
 picture in the directory and study it.
 
-Builder Program - type 'build' or 'builder' or 'generate' in the
-	program to use it.
+Builder Program - type 'build' or 'builder' or 'generate' in the program to create common type of graphs.
 
-What you can create with it so far
+The default list of vertex graph types you can create:
+
 	Path Graph - type 'path'
 	Cycle Graph - type 'cycle'
 	Wheel Graph - type 'wheel'
@@ -22,27 +24,19 @@ What you can create with it so far
 	Complete Graph - type 'complete'
 	Grid Graph - type 'grid'
 
-	If you have something that you think is necessary to include
-	the builder program, let me know!
+Loader Program - type 'load' to load a graph from text file
+.
+What to do with it: I have included basic graph text files in Graphs folder. You can load a graph by typing for example, 
 
-Loader Program - type 'load' to use it.
-What to do with it
-	I have included basic graph text files in Graphs folder.
-	You can load a graph by typing for example,  
-	'load Graphs/petersen.txt' If you use different file path,
-	be sure to tell the program that! If you want to load a file
-	that is not somewhere inside the same directory the program
-	is in, you have to provide a full system path for load program
-	like 'load C:\Users\Sample\My Documents\Graphs\petersen.txt'
+    'load Graphs/petersen.txt' 
+        
+If you use different file path, be sure to tell the program that! If you want to load a file that is not somewhere inside the same directory the program is in, you have to provide a full system path for load program like 
+
+    'load C:\Users\Sample\My Documents\Graphs\petersen.txt'
 	
-	If you want to create your own graphs, you can create a a text
-	file and write an adjacency list. The first column should
-	contain all vertex that you will use in your graph. Then
-	all columns after the first will be used a neighbors vertices
-	to a vertex in the first column and same row.
-
-	To fill a vertex, you apphend # to a vertex only in the first
-	column.
+If you want to create your own graphs, you can create a a text file and write an adjacency list. The first column should contain all vertex that you will use in your graph. Then all columns after the first will be used a neighbors vertices to a vertex in the first column and same row.
+ 
+To fill a vertex, you apphend # to a vertex only in the first column.
 
 FAQ:
 
