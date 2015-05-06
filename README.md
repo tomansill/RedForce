@@ -1,17 +1,15 @@
 Solver Program - April 8, 2014
 
-Author: Thomas B. Ansill
+Author: Thomas B. Ansill<br>
+Email: tba6700(at)rit.edu
 
-Email: tba6700@rit.edu
+0. Compile the program if you haven't already did it.
+1. Run the Driver class
+2. Type 'help' to see which commands you can execute. (the help information changes when you create or load a graph)
 
-1. Run the Driver class using whatever you usually 
-	use for running Java program.
-2. Type 'help' to see which commands you can execute. 
-	(help information changes when you load a graph)
-
-The program uses adjacency list to display graphs. If you do not
-understand adjacency list, please find the GraphToAdjacencyList.png
-picture in the directory and study it.
+The program uses adjacency list structure to display graphs. If you do not
+understand adjacency list, please take time to study the image called GraphToAdjacencyList.png
+picture (it should be in the directory).
 
 Builder Program - type 'build' or 'builder' or 'generate' in the program to create common type of graphs.
 
@@ -26,11 +24,11 @@ The default list of vertex graph types you can create:
 
 Loader Program - type 'load' to load a graph from text file
 .
-What to do with it: I have included basic graph text files in Graphs folder. You can load a graph by typing for example, 
+What to do with it: I have included basic graph text files in Graphs folder that is included with RedForce. You can load a graph by typing for example, 
 
     'load Graphs/petersen.txt' 
         
-If you use different file path, be sure to tell the program that! If you want to load a file that is not somewhere inside the same directory the program is in, you have to provide a full system path for load program like 
+If you want to load a file that is not somewhere inside the same directory the program is in, you have to provide a full system path for load program like 
 
     'load C:\Users\Sample\My Documents\Graphs\petersen.txt'
 	
@@ -41,14 +39,14 @@ To fill a vertex, you apphend # to a vertex only in the first column.
 FAQ:
 
 Q: How to use the searcher in the program?
-A: Run the program, load/build a graph and type findmax. You will be
+A: Run the program, load/build a graph and type findmax or findmin. You will be
 	given choices for searcher types. I recommend using Union
 	Searcher for fast results.
 
 Q: How do I exit the program?
 A: type 'quit' or 'exit' in the program.
 
-Q: What if when program becomes stuck while using'findmax'
+Q: What if when program becomes stuck while using 'findmax'
 	command and how do I stop it?
 A: Use abort key, default is CTRL-C if you are using UNIX Terminal
 	or Windows Command Prompt.
